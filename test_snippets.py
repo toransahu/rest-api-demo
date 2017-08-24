@@ -1,14 +1,12 @@
 import requests
 import json
 
-id = 3
-payloads = {'id':id, }
-url = 'http://127.0.0.1:8000/snippets/'
 
 #GET
-#res = requests.get(url,params=payloads)
+#res = requests.get('http://127.0.0.1:8000/snippets/1/')
+
 #DELETE
-res = requests.delete(url,params=payloads)
+#res = requests.delete('http://127.0.0.1:8000/snippets/3/')
 
 print(res.url)
 
